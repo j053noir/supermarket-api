@@ -133,6 +133,7 @@ namespace supermarket.Controllers
                 };
             }
 
+
             //user.Username = model.Username;
             user.Name = model.Name;
             user.Password = model.Password;

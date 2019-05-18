@@ -7,11 +7,11 @@ using System.Web;
 
 namespace supermarket.Models
 {
-    public partial class SupermarketContext: DbContext
+    public partial class SupermarketContext : DbContext
     {
         public SupermarketContext() : base(GetConnectionString())
         {
-
+            Database.SetInitializer<SupermarketContext>(new CreateDatabaseIfNotExists<SupermarketContext>());
         }
 
         public static string GetConnectionString()

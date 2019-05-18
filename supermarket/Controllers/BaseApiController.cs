@@ -5,7 +5,7 @@ namespace supermarket.Controllers
 {
     public class BaseApiController : ApiController
     {
-        private readonly SupermarketContext _context;
+        private readonly SupermarketContext _context = null;
 
         protected SupermarketContext Context => _context ?? new SupermarketContext();
     }
