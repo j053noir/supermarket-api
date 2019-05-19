@@ -9,7 +9,6 @@ namespace supermarket.Models
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
 
-        [Index(IsUnique = true)]
         public string Reference { get; set; }
 
         public string Name { get; set; }

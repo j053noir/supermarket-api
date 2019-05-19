@@ -181,6 +181,8 @@
     <Compile Include="Models\Bindings\LoginBinding.cs" />
     <Compile Include="Models\Bindings\ResponseBinding.cs" />
     <Compile Include="Models\Bindings\UserBinding.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetails.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\SupermarketContext.cs" />
     <Compile Include="Models\User.cs" />
